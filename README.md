@@ -23,4 +23,4 @@
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nekoraru22&theme=2077&utcOffset=1)
 
 # Visit Counter
-![:Nekoraru22](https://count.getloli.com/get/@Nekoraru22)
+![:Nekoraru22](https://count.getloli.com/get/@Nekoraru22/?theme=gelbooru)
