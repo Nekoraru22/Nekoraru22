@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **basic things about all**
 
-- 📫 How to reach me **Discord: Neko-san#4592**
+- 📫 How to reach me **Discord: nekoraru22**
 
 - ⚡ Fun fact **Meow! :3**
 
