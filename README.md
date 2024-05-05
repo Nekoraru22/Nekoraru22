@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Neko</h1>
 <h3 align="center">A curious programer cat ฅ^•ﻌ•^ฅ</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nekoraru22&label=Profile%20views&color=0e75b6&style=flat" alt="nekoraru22" /> </p>
-
 - 🌱 I’m currently learning **basic things about all**
 
 - 📫 How to reach me **Discord: Neko-san#4592**
