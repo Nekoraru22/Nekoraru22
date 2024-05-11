@@ -1,11 +1,7 @@
 <h1 align="center">Hi 👋, I'm Neko</h1>
 <h3 align="center">A curious programer cat ฅ^•ﻌ•^ฅ</h3>
 
-- 🌱 I’m currently learning **basic things about all**
-
 - 📫 How to reach me **Discord: nekoraru22**
-
-- ⚡ Fun fact **Meow! :3**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
