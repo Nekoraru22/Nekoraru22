@@ -29,7 +29,6 @@
   </tr>
 </table>
 
-<br>
 <h4 align="center">Visit Counter</h4>
 
 <p align="center">
