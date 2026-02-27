@@ -7,7 +7,8 @@
 <a href="https://matrix.to/#/@neko:nekoraru.me" target="_blank"><img align="center" src="https://img.icons8.com/ios_filled/200/F25081/matrix-logo.png" alt="Matrix" height="35" width="35"/></a> <a href="https://matrix.to/#/@neko:nekoraru.me" target="_blank">@neko:nekoraru.me</a>
 </p>
 
-<h3 align="center">Statistics &nbsp; [![GitHub Metrics 🐾](https://github.com/Nekoraru22/Nekoraru22/actions/workflows/workflow.yml/badge.svg)](https://github.com/Nekoraru22/Nekoraru22/actions/workflows/workflow.yml)</h3>
+<h3 align="center">Statistics</h3>
+<p align="center"><a href="https://github.com/Nekoraru22/Nekoraru22/actions/workflows/workflow.yml"><img src="https://github.com/Nekoraru22/Nekoraru22/actions/workflows/workflow.yml/badge.svg" alt="GitHub Metrics 🐾"/></a></p>
 <table align="center" border="0" cellspacing="8" cellpadding="0">
   <tr>
     <td valign="middle"><img src="assets/stats.svg" alt="profile stats"/></td>
