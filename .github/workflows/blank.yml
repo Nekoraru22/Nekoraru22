@@ -2,6 +2,8 @@ name: GitHub Metrics 🐾
 on:
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
+  push:
+    branches: ["master", "main"]
 jobs:
   metrics:
     runs-on: ubuntu-latest
@@ -20,18 +22,11 @@ jobs:
           base_indepth: yes
           config_timezone: Europe/Madrid
           
-          plugin_languages: yes
-          plugin_languages_ignored: html, css
-          plugin_languages_details: lines, bytes-size, percentage
-          plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-          
           plugin_topics: yes
           plugin_topics_mode: icons
           plugin_introduction: yes
 
-      - name: 🐈 Achievements & Activity
+      - name: 🐾 Achievements & Activity
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
@@ -51,6 +46,9 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_days: 14
-          plugin_fortune: yes
+          plugin_activity: yes
+          plugin_activity_limit: 5
           
           plugin_traffic: yes
+          
+          plugin_fortune: yes
