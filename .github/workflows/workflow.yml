@@ -68,10 +68,6 @@ jobs:
       - name: 📊 Fetch & recolor profile summary cards
         if: ${{ success() || failure() }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase
-
           curl -sS "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nekoraru22&theme=transparent" \
             | sed 's/#006AFF/#c550de/g; s/#0579C3/#9900ef/g; s/#417E87/#A78BFA/g' \
             > assets/stats.svg
@@ -80,6 +76,12 @@ jobs:
             | sed 's/#006AFF/#c550de/g; s/#417E87/#A78BFA/g' \
             > assets/languages.svg
 
+      - name: 💾 Commit cards
+        if: ${{ success() || failure() }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
           git add assets/stats.svg assets/languages.svg
           git diff --staged --quiet || git commit -m "chore: update stats and language cards"
           git push
