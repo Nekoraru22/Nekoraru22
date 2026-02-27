@@ -30,3 +30,11 @@ jobs:
           plugin_isocalendar_duration: full-year
           
           plugin_fortune: yes
+
+      - name: 🐈 LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: leetcode.svg
+          plugin_leetcode_user: nekoraru22
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
