@@ -1,0 +1,68 @@
+/* LeetCode Stats Card - Lila Theme
+   Colors from top.svg / bottom.svg gradient: #c550de → #9900ef
+   Usage: ?sheets=https://raw.githubusercontent.com/Nekoraru22/Nekoraru22/main/assets/custom-css.css
+*/
+
+/* Card background */
+#card-bg,
+rect[fill="#FAFAFA"],
+rect[fill="#ffffff"],
+rect[fill="#fff"] {
+  fill: #1a0a2e !important;
+}
+
+/* Border / secondary background */
+rect[fill="#E0E0E0"],
+rect[fill="#e0e0e0"],
+rect[fill="#d0d0d0"] {
+  fill: #3d1a5c !important;
+}
+
+/* Primary text */
+text,
+tspan {
+  fill: #f0e6ff !important;
+}
+
+/* Easy solved - keep a softer lila */
+.easy,
+[class*="easy"] text,
+[class*="easy"] tspan,
+circle[stroke="#00b8a3"],
+circle[stroke="#00AF9B"] {
+  fill: #b39ddb !important;
+  stroke: #b39ddb !important;
+}
+
+/* Medium solved - main lila */
+.medium,
+[class*="medium"] text,
+[class*="medium"] tspan,
+circle[stroke="#ffc01e"],
+circle[stroke="#FFB800"] {
+  fill: #c550de !important;
+  stroke: #c550de !important;
+}
+
+/* Hard solved - deep purple */
+.hard,
+[class*="hard"] text,
+[class*="hard"] tspan,
+circle[stroke="#ef4743"],
+circle[stroke="#FF375F"] {
+  fill: #9900ef !important;
+  stroke: #9900ef !important;
+}
+
+/* Total / accent ring */
+circle[stroke="#e0e0e0"],
+circle[stroke="#E0E0E0"] {
+  stroke: #3d1a5c !important;
+}
+
+/* Progress bars and accent elements */
+rect[fill="#00b8a3"],
+rect[fill="#ffc01e"],
+rect[fill="#ef4743"] {
+  fill: #c550de !important;
+}

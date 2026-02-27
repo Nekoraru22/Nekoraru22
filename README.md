@@ -1,4 +1,4 @@
-<img src="top.svg" width="100%"/>
+<img src="assets/top.svg" width="100%"/>
 
 <h3 align="center">Connect with me</h3>
 <p align="center">
@@ -18,15 +18,15 @@
 
 <table align="center" border="0" cellspacing="8" cellpadding="0">
   <tr>
-    <td valign="top"><img src="header.svg" width="440" alt="metrics"/></td>
+    <td valign="top"><img src="assets/header.svg" width="440" alt="metrics"/></td>
     <td valign="top" align="center">
       <a href="https://leetcode.com/nekoraru22">
-        <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity" target="_blank" alt="Leetcode Stats" width="370"/>
+        <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity&border=0?sheets=https://github.com/Nekoraru22/Nekoraru22/blob/main/assets/custom-css.css" target="_blank" alt="Leetcode Stats" width="370"/>
       </a>
       <br/>
-      <img src="sona.png" height="365" alt="sona"/>
+      <img src="assets/sona.png" height="365" alt="sona"/>
       <br/>
-      <img src="fortune.svg" width="370" alt="fortune"/>
+      <img src="assets/fortune.svg" width="370" alt="fortune"/>
     </td>
   </tr>
 </table>
@@ -37,4 +37,4 @@
   <img src="https://count.getloli.com/get/@Nekoraru22/?theme=gelbooru" alt="Visit Counter"/>
 </p>
 
-<img src="bottom.svg" width="100%"/>
+<img src="assets/bottom.svg" width="100%"/>

@@ -15,7 +15,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: header.svg
+          filename: assets/header.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: Nekoraru22
           base: header, community, repositories, metadata
@@ -33,7 +33,7 @@ jobs:
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: fortune.svg
+          filename: assets/fortune.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: Nekoraru22
           base: ""
