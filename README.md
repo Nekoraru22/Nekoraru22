@@ -7,8 +7,7 @@
 <a href="https://matrix.to/#/@neko:nekoraru.me" target="_blank"><img align="center" src="https://img.icons8.com/ios_filled/200/F25081/matrix-logo.png" alt="Matrix" height="35" width="35"/></a> <a href="https://matrix.to/#/@neko:nekoraru.me" target="_blank">@neko:nekoraru.me</a>
 </p>
 
-<h3 align="center">Statistics</h3>
-
+<h3 align="center">Statistics &nbsp; [![GitHub Metrics 🐾](https://github.com/Nekoraru22/Nekoraru22/actions/workflows/workflow.yml/badge.svg)](https://github.com/Nekoraru22/Nekoraru22/actions/workflows/workflow.yml)</h3>
 <table align="center" border="0" cellspacing="8" cellpadding="0">
   <tr>
     <td valign="middle"><img src="assets/stats.svg" alt="profile stats"/></td>
@@ -21,7 +20,7 @@
     <td valign="top"><img src="assets/header.svg" width="440" alt="metrics"/></td>
     <td valign="top" align="center">
       <a href="https://leetcode.com/nekoraru22">
-        <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity&cache=0&sheets=https://raw.githubusercontent.com/Nekoraru22/Nekoraru22/main/assets/custom-css.css" target="_blank" alt="Leetcode Stats" width="370"/>
+        <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity&border=0&cache=0&sheets=https://raw.githubusercontent.com/Nekoraru22/Nekoraru22/main/assets/custom-css.css" target="_blank" alt="Leetcode Stats" width="370"/>
       </a>
       <br/>
       <img src="assets/separator.svg" width="340" alt=""/>

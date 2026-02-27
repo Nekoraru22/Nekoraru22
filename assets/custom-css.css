@@ -1,9 +1,19 @@
-/* LeetCode Stats Card - transparent background
+/* LeetCode Stats Card - transparent background + lilac palette
    Usage: &sheets=https://raw.githubusercontent.com/Nekoraru22/Nekoraru22/main/assets/custom-css.css
 */
 
 :root {
   --bg-0: transparent;
+  --bg-1: transparent;
+  --text-0: #A78BFA;
+  --text-1: #c550de;
+  --color-0: #c550de;
+  --color-1: #9900ef;
+  --color-2: #d8b4fe;
+  --color-3: #6b21a8;
+  --easy:   #d8b4fe;
+  --medium: #c550de;
+  --hard:   #9900ef;
 }
 
 #background {
