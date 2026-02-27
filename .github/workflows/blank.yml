@@ -44,6 +44,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: medias.svg
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           config_order: anilist, music
           output_action: gist
