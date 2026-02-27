@@ -49,19 +49,17 @@ jobs:
           base: ""
           extras_css: |
             h1.field, h2.field, h3.field { color: #c550de !important }
-            b[style*="#D302A7"] { color: #FFD700 !important } /* Godly Luck
-            b[style*="#FD4D32"] { color: #22c55e !important } /* Excellent Luck
-            b[style*="#E7890C"] { color: #4ade80 !important } /* Good Luck
-            b[style*="#BAC200"] { color: #eab308 !important } /* Average Luck
-            b[style*="#7FEC11"] { color: #f97316 !important } /* Bad Luck
-            b[style*="#9D05DA"] { color: #ef4444 !important } /* Very Bad Luck
-            b[style*="#F51C6A"] { color: #94a3b8 !important } /* Reply hazy
-            b[style*="#2A56FB"] { color: #8b5cf6 !important } /* Better not tell
-            b[style*="#6023F8"] { color: #14b8a6 !important } /* Outlook good
-            b[style*="#43FD3B"] { color: #06b6d4 !important } /* Good news
-            b[style*="#16F174"] { color: #9ca3af !important } /* ﾌｰﾝ
-            b[style*="#00CBB0"] { color: #fb923c !important } /* ｷﾀ━━━━
-            b[style*="#0893E1"] { color: #a78bfa !important } /* Dark stranger
+            b[style*="color:red"],
+            b[style*="color: red"]     { color: #ef4444 !important } /* Very bad  → rojo        */
+            b[style*="#ff7f00"]        { color: #f97316 !important } /* Bad       → naranja      */
+            b[style*="#ff0"]           { color: #eab308 !important } /* Average   → amarillo     */
+            b[style*="#00ff7f"]        { color: #f97316 !important } /* Bad Luck  → naranja      */
+            b[style*="#E7890C"]        { color: #4ade80 !important } /* Good Luck → verde        */
+            b[style*="#007fff"]        { color: #06b6d4 !important } /* Neutral   → cian         */
+            b[style*="#0366d6"]        { color: #8b5cf6 !important } /* Mystery   → violeta      */
+            b[style*="#7f00ff"]        { color: #9900ef !important } /* Special   → púrpura      */
+            b[style*="#a933ff"]        { color: #c550de !important } /* Special   → lila         */
+            b[style*="#777"]           { color: #94a3b8 !important } /* Hazy      → gris         */
 
           plugin_fortune: yes
 
