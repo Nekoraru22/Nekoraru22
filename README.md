@@ -11,8 +11,8 @@
 
 <table align="center" border="0" cellspacing="8" cellpadding="0">
   <tr>
-    <td valign="middle"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nekoraru22&theme=2077" alt="profile details"/></td>
-    <td valign="middle"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nekoraru22&theme=2077" alt="repos per language"/></td>
+    <td valign="middle"><img src="assets/stats.svg" alt="profile stats"/></td>
+    <td valign="middle"><img src="assets/languages.svg" alt="top languages"/></td>
   </tr>
 </table>
 
@@ -21,8 +21,10 @@
     <td valign="top"><img src="assets/header.svg" width="440" alt="metrics"/></td>
     <td valign="top" align="center">
       <a href="https://leetcode.com/nekoraru22">
-        <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity&border=0&cache=0&sheets=https://raw.githubusercontent.com/Nekoraru22/Nekoraru22/main/assets/custom-css.css" target="_blank" alt="Leetcode Stats" width="370"/>
+        <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity&cache=0&sheets=https://raw.githubusercontent.com/Nekoraru22/Nekoraru22/main/assets/custom-css.css" target="_blank" alt="Leetcode Stats" width="370"/>
       </a>
+      <br/>
+      <img src="assets/separator.svg" width="340" alt=""/>
       <br/>
       <img src="assets/sona.png" height="365" alt="sona"/>
       <br/>
