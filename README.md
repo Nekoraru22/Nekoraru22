@@ -9,23 +9,25 @@
 
 <h3 align="center">Statistics:</h3>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nekoraru22&theme=2077" alt="profile details" height="160"/>
-  &nbsp;&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nekoraru22&theme=2077" alt="repos per language" height="160"/>
-</p>
+<table align="center" border="0" cellspacing="8" cellpadding="0">
+  <tr>
+    <td valign="middle"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nekoraru22&theme=2077" alt="profile details"/></td>
+    <td valign="middle"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nekoraru22&theme=2077" alt="repos per language"/></td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="header.svg" width="440" alt="metrics" valign="top"/>
-  &nbsp;&nbsp;
-  <span style="display: inline-block; vertical-align: top;">
-    <a href="https://leetcode.com/nekoraru22">
-      <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity" alt="Leetcode Stats" width="370"/>
-    </a>
-    <br/>
-    <img src="sona.png" width="370" alt="sona"/>
-  </span>
-</p>
+<table align="center" border="0" cellspacing="8" cellpadding="0">
+  <tr>
+    <td valign="top"><img src="header.svg" width="440" alt="metrics"/></td>
+    <td valign="top" align="center">
+      <a href="https://leetcode.com/nekoraru22">
+        <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity" alt="Leetcode Stats" width="370"/>
+      </a>
+      <br/>
+      <img src="sona.png" width="370" alt="sona"/>
+    </td>
+  </tr>
+</table>
 
 <br>
 <h4 align="center">Visit Counter</h4>
