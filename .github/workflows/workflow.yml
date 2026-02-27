@@ -36,6 +36,7 @@ jobs:
         with:
           filename: leetcode.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
           plugin_leetcode_user: nekoraru22
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
