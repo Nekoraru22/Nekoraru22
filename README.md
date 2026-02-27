@@ -25,6 +25,8 @@
       </a>
       <br/>
       <img src="sona.png" width="370" alt="sona"/>
+      <br/>
+      <img src="fortune.svg" width="370" alt="fortune"/>
     </td>
   </tr>
 </table>
