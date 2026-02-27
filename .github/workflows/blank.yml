@@ -36,13 +36,25 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Nekoraru22
           template: classic
-          base: ""
+          base: "" 
           config_timezone: Europe/Madrid
           
           plugin_isocalendar: yes
-          plugin_habits: yes
-          plugin_activity: yes
-          plugin_achievements: yes
-          plugin_achievements_display: compact
+          plugin_isocalendar_duration: half-year
+          
           plugin_traffic: yes
+          
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_display: compact
+          plugin_achievements_ignored: job, polyglot, runner
+
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          
           plugin_fortune: yes
