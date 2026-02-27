@@ -24,7 +24,7 @@
         <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity" target="_blank" alt="Leetcode Stats" width="370"/>
       </a>
       <br/>
-      <img src="sona.png" width="370" alt="sona"/>
+      <img src="sona.png" height="260" alt="sona"/>
       <br/>
       <img src="fortune.svg" width="370" alt="fortune"/>
     </td>
