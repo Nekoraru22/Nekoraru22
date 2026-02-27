@@ -2,8 +2,10 @@
    Usage: &sheets=https://raw.githubusercontent.com/Nekoraru22/Nekoraru22/main/assets/custom-css.css
 */
 
-#card-bg,
-rect:first-of-type {
+:root {
+  --bg-0: transparent;
+}
+
+#background {
   fill: transparent !important;
-  fill-opacity: 0 !important;
 }

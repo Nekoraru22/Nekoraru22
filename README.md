@@ -21,7 +21,7 @@
     <td valign="top"><img src="assets/header.svg" width="440" alt="metrics"/></td>
     <td valign="top" align="center">
       <a href="https://leetcode.com/nekoraru22">
-        <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity&border=0?sheets=https://github.com/Nekoraru22/Nekoraru22/blob/main/assets/custom-css.css" target="_blank" alt="Leetcode Stats" width="370"/>
+        <img src="https://leetcard.jacoblin.cool/nekoraru22?ext=activity&border=0&sheets=https://github.com/Nekoraru22/Nekoraru22/blob/main/assets/custom-css.css" target="_blank" alt="Leetcode Stats" width="370"/>
       </a>
       <br/>
       <img src="assets/sona.png" height="365" alt="sona"/>
