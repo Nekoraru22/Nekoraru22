@@ -26,6 +26,11 @@ jobs:
           config_timezone: Europe/Madrid
           extras_css: |
             h1.field, h2.field, h3.field { color: #c550de !important }
+            [fill="#ebedf0"] { fill: #ede9f5 !important }
+            [fill="#9be9a8"] { fill: #d8b4fe !important }
+            [fill="#40c463"] { fill: #c084fc !important }
+            [fill="#30a14e"] { fill: #9900ef !important }
+            [fill="#216e39"] { fill: #6b21a8 !important }
 
           plugin_topics: yes
           plugin_topics_mode: icons
@@ -67,7 +72,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash --include-untracked
           git pull --rebase
+          git stash pop
           git add assets/stats.svg assets/languages.svg
           git diff --staged --quiet || git commit -m "chore: update stats and language cards"
           git push
