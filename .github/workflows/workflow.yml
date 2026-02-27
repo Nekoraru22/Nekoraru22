@@ -49,32 +49,37 @@ jobs:
           base: ""
           extras_css: |
             h1.field, h2.field, h3.field { color: #c550de !important }
+            b[style*="#D302A7"] { color: #FFD700 !important } /* Godly Luck
+            b[style*="#FD4D32"] { color: #22c55e !important } /* Excellent Luck
+            b[style*="#E7890C"] { color: #4ade80 !important } /* Good Luck
+            b[style*="#BAC200"] { color: #eab308 !important } /* Average Luck
+            b[style*="#7FEC11"] { color: #f97316 !important } /* Bad Luck
+            b[style*="#9D05DA"] { color: #ef4444 !important } /* Very Bad Luck
+            b[style*="#F51C6A"] { color: #94a3b8 !important } /* Reply hazy
+            b[style*="#2A56FB"] { color: #8b5cf6 !important } /* Better not tell
+            b[style*="#6023F8"] { color: #14b8a6 !important } /* Outlook good
+            b[style*="#43FD3B"] { color: #06b6d4 !important } /* Good news
+            b[style*="#16F174"] { color: #9ca3af !important } /* ﾌｰﾝ
+            b[style*="#00CBB0"] { color: #fb923c !important } /* ｷﾀ━━━━
+            b[style*="#0893E1"] { color: #a78bfa !important } /* Dark stranger
 
           plugin_fortune: yes
 
-      - name: 📊 Start github-readme-stats
-        if: ${{ success() || failure() }}
-        run: |
-          docker run -d -p 9000:9000 \
-            -e PAT_1=${{ secrets.METRICS_TOKEN }} \
-            -e WHITELIST=nekoraru22 \
-            ghcr.io/fim-sh/github-readme-stats-docker:latest
-          sleep 15
-
-      - name: 📊 Generate Stats & Languages cards
-        if: ${{ success() || failure() }}
-        run: |
-          curl -sS "http://localhost:9000/api?username=nekoraru22&bg_color=00000000&title_color=c550de&text_color=A78BFA&icon_color=D946EF&border_color=9900ef" -o assets/stats.svg
-          curl -sS "http://localhost:9000/api/top-langs/?username=nekoraru22&bg_color=00000000&title_color=c550de&text_color=A78BFA&border_color=9900ef&layout=compact" -o assets/languages.svg
-
-      - name: 📊 Commit cards
+      - name: 📊 Fetch & recolor profile summary cards
         if: ${{ success() || failure() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git stash --include-untracked
           git pull --rebase
-          git stash pop
+
+          curl -sS "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nekoraru22&theme=transparent" \
+            | sed 's/#006AFF/#c550de/g; s/#0579C3/#9900ef/g; s/#417E87/#A78BFA/g' \
+            > assets/stats.svg
+
+          curl -sS "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nekoraru22&theme=transparent" \
+            | sed 's/#006AFF/#c550de/g; s/#417E87/#A78BFA/g' \
+            > assets/languages.svg
+
           git add assets/stats.svg assets/languages.svg
           git diff --staged --quiet || git commit -m "chore: update stats and language cards"
           git push
