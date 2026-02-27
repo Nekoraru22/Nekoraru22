@@ -26,7 +26,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           # Tu token secreto (debes configurarlo en Settings > Secrets)
-          token: ${{ secrets.METRICS_TOKEN.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           
           # Configuración básica (puedes añadir más cosas aquí luego)
           user: Nekoraru22
